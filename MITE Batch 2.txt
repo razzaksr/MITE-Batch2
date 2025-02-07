@@ -1,0 +1,40 @@
+MITE Batch 2
+
+1. Find the minimum value in array:
+required data : array
+required operation: min element
+
+
+2. Find the least missing element in array:
+eg:
+9,5,23,6,24,78,12
+output: 
+
+
+finding first min, second min	>> O(n)>> loop
+
+
+
+secondmin-firstmin	>> different
+	6	-	5	>> 1
+secondMin+1 - different
+	7	- 1	>> 6>> 
+
+
+3. A chocolate factory is packing chocolates into packets. The chocolate packets here represent an array arr of N number of integer values. The task is to find the empty packets(0) of chocolate and push it to the end of the conveyor belt(array).
+Input:
+N = 8
+arr = [1, 0, 2, 3, 0, 4, 5, 0]
+Output:
+[1, 2, 3, 4, 5, 0, 0, 0]
+
+
+
+Greedy
+Divide and Conquer
+Dynamic Programming
+
+
+
+
+
