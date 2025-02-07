@@ -1,0 +1,28 @@
+Assignments Batch 2:
+
+Day1 :
+1. Array rotation clock and anti-clock
+rotation: 2
+original:
+    0         1         2      3             4          5          6                                                                              
+[Node, Django, Vue, Express, Spring, Flask, Angular, 
+    7           8
+React, Hibernate]
+
+anti-clock
+Vue Express Spring Flask Angular React Hibernate Node Django
+
+clock
+React Hibernate Node Django Vue Express Spring Flask Angular
+
+
+2. Airport security officials confiscated several items of the passengers at the security checkpoint. All the items have been dumped into a huge box (array). Each item possesses a certain amount of risk[0,1,2]. Here, the risk severity of the items represents an array[] of N number of integer values. The task here is to sort the items based on their levels of risk in the array. The risk values range from 0 to 2.
+Input:
+[1, 0, 2, 2, 1, 1, 2, 2, 1, 0, 2, 1, 0]
+Output:
+[0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+
+3. Prefix and Postfix sum of array:
+1 3 6 10 15 
+[1, 2, 3, 4, 5]
+[15, 14, 12, 9, 5]
