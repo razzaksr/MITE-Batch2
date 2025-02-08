@@ -35,6 +35,65 @@ Divide and Conquer
 Dynamic Programming
 
 
+Day 2:
+Debits:
 
 
 
+
+1. Binary Search: Divide and Conquer:
+
+2. Consider the following array is account balance of last 7 transactions, find the period of time (subSum) where the max amount kept in the account.
+(max sub array where sum is max)
+eg:
+Input:
+2, -4, 1, 9, -6, 7, -3
+output:
+10
+
+Input:
+-2, 1, 3, -3, 4, -1, 2, 1, -5, 4
+Output:
+7
+
+3. Equilibrium Index of account balance in that day you can see the balances of past and post are equals
+
+int[] arr = {10, 20, 30, 10, 10, 10, 30, 20, 10, 10};
+System.out.println(equilibriumIndex(arr)); // Output: Can't find Equilibrium day
+int[] myStatement = {-7, 1, 5, 2, -4, 3, 0};
+day is : 3
+
+
+4. Find the number of debits in last transactions as array of following values
+input:
+[1200,300,19000,400,120,500]
+Output:
+3
+
+5. You are given a string s consisting of n characters which are either 'X' or 'O'.
+A move is defined as selecting three consecutive characters of s and converting them to 'O'. Note that if a move is applied to the character 'O', it will stay the same.
+Return the minimum number of moves required so that all the characters of s are converted to 'O'.
+Example 1:
+Input: s = "XXX"
+Output: 1
+Explanation: XXX -> OOO
+We select all the 3 characters and convert them in one move.
+Example 2:
+Input: s = "XXOX"
+Output: 2
+Explanation: XXOX -> OOOX -> OOOO
+We select the first 3 characters in the first move, and convert them to 'O'.
+Then we select the last 3 characters and convert them so that the final string contains all 'O's.
+Example 3:
+Input: s = "OOOO"
+Output: 0
+Explanation: There are no 'X's in s to convert.
+
+
+6. Consider the array contains 10 employees annual salary, now you gonna update take home after income tax(old regime) deduction on each
+eg:
+[12.5,9.2,4.5,19.5,2.5,56.8]
+10.6, 9.10, 4.47, 15.6, 2.5, 39.76
+no tax upto 4
+4-8>> 5, 8-12>> 10, 12-16>> 15, 16-20>>20, 20-24>>25, 24>> 30
+eg: 12.5 - (12.5*0.15) or 12.5*15/100 - 12.5
