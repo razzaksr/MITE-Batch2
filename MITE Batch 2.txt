@@ -196,7 +196,7 @@ $		End of string
 
 
 
-Lab:
+Lab for day 3:
 1. Using recursion, 
 As part of a financial data analysis tool, you are tasked with finding a group of four distinct numbers within an array that add up to a target sum T. Write a function that takes an array of integers and a target sum T as input and returns all unique quadruples [a, b, c, d] such that a + b + c + d = T.
 eg:
