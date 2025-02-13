@@ -17,18 +17,21 @@ public class FindMaxSumSubViaSW {
             currentSum += arr[index];
         }
         maxSum = currentSum;
-        int index;
+        int index, start=0;
         for(index = window; index<arr.length;index++){
             currentSum += arr[index] - arr[index-window];
-            maxSum = Math.max(maxSum, currentSum);
+            // maxSum = Math.max(maxSum, currentSum);
+            if(currentSum>=maxSum){
+                maxSum = currentSum;
+                start = index- window+1;
+            }
         }
         System.out.println("Max Sum "+maxSum);
-        index--;
-        while(window>0){
-            foundElements.add(arr[index]);
-            index--;
-            window--;
+        
+        for(index = 0;index<window;index++){
+            foundElements.add(arr[start+index]);
         }
+
         return foundElements;
     }
 
